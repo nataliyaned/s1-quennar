@@ -1,0 +1,12 @@
+{
+    "name": "My Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",  // Change Python version if needed
+    "features": {},
+    "customizations": {
+      "vscode": {
+        "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+      }
+    },
+    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt"
+  }
+  
